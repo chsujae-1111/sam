@@ -38,7 +38,10 @@ h1 {
   margin-left: 20px;
 }
 
-
+img {
+    height: 75px;
+    width: 50px;
+}
 .player-songs {
   font-family: "이서윤체", sans-serif;
   display: flex;
