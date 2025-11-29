@@ -1,0 +1,27 @@
+const sam_1 = document.querySelector(`.SamSung_1`)
+const sam_2 = document.querySelector(`.SamSung_2`)
+const lg_1 = document.querySelector(`.lg_1`)
+const lg_2 = document.querySelector(`.lg_2`)
+const Eg_1 = document.querySelector(`.Eg_1`)
+const Eg_2 = document.querySelector(`.Eg_2`)
+const Sg_1 = document.querySelector(`.Ssg_1`)
+const Sg_2 = document.querySelector(`.Ssg_2`)
+const Nc_1 = document.querySelector(`.nc_1`)
+const Nc_2 = document.querySelector(`.nc_2`)
+const Kt_1 = document.querySelector(`.Kt_1`)
+const Kt_2 = document.querySelector(`.Kt_2`)
+const lotte_1 = document.querySelector(`.lotte_1`)
+const lotte_2 = document.querySelector(`.lotte_2`)
+const Kia_1 = document.querySelector(`.Kia_1`)
+const Kia_2 = document.querySelector(`.Kia_2`)
+const DS_1 = document.querySelector(`.DS_1`)
+const DS_2 = document.querySelector(`.DS_2`)
+const kium_1 = document.querySelector(`.kium_1`)
+const kium_2 = document.querySelector(`.kium_2`)
+
+sam_2.addEventListener('click' , ()=> {
+    window.open('./SamSung/Sam_1.html');
+})
+sam_1.addEventListener('click' , ()=> {
+    window.open('./SamSung/Sam_2.html')
+})

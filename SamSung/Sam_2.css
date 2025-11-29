@@ -1,0 +1,62 @@
+body {
+  font-family: '이서윤체', sans-serif;
+  background-color: #f0f0f0;
+  padding: 30px;
+}
+h1 {
+  font-family: "project_file\PyeongChangPeace-Bold.ttf", "이서윤체", sans-serif;
+  text-align: center;
+  color: #333;
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+.player-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  padding: 20px 30px;
+  max-width: 600px;
+  margin: auto;
+}
+
+.player-number {
+  font-size: 14px;
+  color: #666;
+  margin-right: 15px;
+  flex-shrink: 0;
+}
+
+.player-name {
+  font-size: 24px;
+  font-weight: bold;
+  flex-grow: 1;
+  text-align: left;
+  margin-left: 20px;
+}
+
+
+.player-songs {
+  font-family: "이서윤체", sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.song-button {
+  font-family: "이서윤체", sans-serif;
+  padding: 8px 12px;
+  font-size: 14px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.song-button:hover {
+  background-color: #0056b3;
+}
