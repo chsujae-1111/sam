@@ -42,7 +42,7 @@ mumcheum.addEventListener('click', ()=> {
     Audio.pause()
 })
 back.addEventListener(`click` , () => {
-    window.open('../1_slide.html')
+    window.open('../index.html')
 })
 
 a_5801.addEventListener(`click`, ()=>{
